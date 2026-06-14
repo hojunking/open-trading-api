@@ -165,3 +165,8 @@ cython_debug/
 *.lock
 
 *_logs/
+
+# Local WireGuard credentials
+HJ-server.conf
+
+KIS

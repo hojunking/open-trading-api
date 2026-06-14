@@ -11,8 +11,8 @@ from domestic_stock_functions import *
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# 인증
-ka.auth()
+# 인증 (모의투자키 사용 시 svr="vps")
+ka.auth(svr="vps")
 trenv = ka.getTREnv()
 
 ##############################################################################################
